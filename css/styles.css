@@ -1,0 +1,117 @@
+body {
+    color: #242F33;
+}
+
+h1 {
+    font-size: 25px;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+p{
+    font-size: 14px;
+    text-align: justify;
+}
+
+i {
+    margin-left: 5px;
+ }
+
+ a{
+    color: white;
+ }
+
+ a:hover {
+    color:white;
+ }
+
+  .div-photo {
+    display: inline-block;
+    width: 30%;
+  }
+
+  .container {
+    background-color: #f0f3f9; 
+    padding: 20px;
+    margin: auto;
+    width: 1046px;
+  }
+
+  .image-jesus {
+    width: 200px;
+    height: 290px;
+  }
+
+  .arrow {
+    border: solid #B7C0E0;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-right: 8px;
+  }
+  
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+
+ .dot { 
+    height: 15px;
+    width: 15px;
+    margin-right: 8px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.titles {
+    font-weight: 500;
+}
+
+    .time {
+        color:#546E7A;
+        margin-right: 7px;
+        background-color: #B7C0E0;
+        font-weight: 700;
+        padding: 0 4px;
+    }
+
+    .col-img {
+        position: relative;
+        text-align: center;
+      }
+     
+      .col-img .btn {
+        position: fixed;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        color: white;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        width:auto;
+        border: 1px solid white;
+        padding-bottom: 2px;
+}
+     
+     #showHide {
+        border: 2px solid white;
+        width: 100%;
+        text-align: end;
+        background: none;
+        font-weight: 500;
+        box-shadow: 0px -10px 20px rgba(255, 255, 255, 1);
+        background-color:white;
+     }
+
+     .last-info {
+        margin-bottom: 0;
+     }
+   
